@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC68DA8C19C3E5C1003CD5E9 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC68DA8B19C3E5C1003CD5E9 /* NextViewController.m */; };
+		AC68DA8F19C3E919003CD5E9 /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC68DA8E19C3E919003CD5E9 /* TransitionManager.m */; };
 		AC6F1B5E19C287C900B08562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6F1B5D19C287C900B08562 /* Foundation.framework */; };
 		AC6F1B6019C287C900B08562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6F1B5F19C287C900B08562 /* CoreGraphics.framework */; };
 		AC6F1B6219C287C900B08562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6F1B6119C287C900B08562 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC68DA8A19C3E5C1003CD5E9 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AC68DA8B19C3E5C1003CD5E9 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		AC68DA8D19C3E919003CD5E9 /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		AC68DA8E19C3E919003CD5E9 /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
 		AC6F1B5A19C287C900B08562 /* iosanima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosanima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6F1B5D19C287C900B08562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC6F1B5F19C287C900B08562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +125,10 @@
 				AC6F1B7319C287C900B08562 /* ViewController.m */,
 				AC6F1B7519C287C900B08562 /* Images.xcassets */,
 				AC6F1B6419C287C900B08562 /* Supporting Files */,
+				AC68DA8A19C3E5C1003CD5E9 /* NextViewController.h */,
+				AC68DA8B19C3E5C1003CD5E9 /* NextViewController.m */,
+				AC68DA8D19C3E919003CD5E9 /* TransitionManager.h */,
+				AC68DA8E19C3E919003CD5E9 /* TransitionManager.m */,
 			);
 			path = iosanima;
 			sourceTree = "<group>";
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC6F1B7419C287C900B08562 /* ViewController.m in Sources */,
+				AC68DA8C19C3E5C1003CD5E9 /* NextViewController.m in Sources */,
 				AC6F1B6E19C287C900B08562 /* AppDelegate.m in Sources */,
 				AC6F1B6A19C287C900B08562 /* main.m in Sources */,
+				AC68DA8F19C3E919003CD5E9 /* TransitionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 				AC6F1B8E19C287C900B08562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC6F1B8F19C287C900B08562 /* Build configuration list for PBXNativeTarget "iosanimaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				AC6F1B9119C287C900B08562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
