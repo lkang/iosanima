@@ -28,13 +28,13 @@
   
 //  CGRect oldFrame = yetiImage.frame;
   yetiImage.frame = CGRectMake(toVc.view.center.x, toVc.view.center.y,
-                               yetiImage.frame.size.width/8, yetiImage.frame.size.height/8);
+                               yetiImage.frame.size.width/15, yetiImage.frame.size.height/15);
   
   [container addSubview:toVc.view];
   [container addSubview:fromVc.view];
   [container addSubview:yetiImage];
 
-  [UIView animateWithDuration:1.5
+  [UIView animateWithDuration:1.0
                         delay:0.0
                       options:UIViewAnimationOptionCurveEaseInOut
                    animations:^{
@@ -55,7 +55,7 @@
   UIViewController *fromVc = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
   fromVc.view.alpha = 0.0;
 
-  [UIView animateWithDuration:1.0
+  [UIView animateWithDuration:0.5
                         delay:0.0
                       options:UIViewAnimationOptionCurveEaseInOut
                    animations:^{
